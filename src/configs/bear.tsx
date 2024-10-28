@@ -37,146 +37,146 @@ const bear: BearData[] = [
       {
         id: "basic-class-01",
         title: "Basic Class",
-        file: "https://raw.githubusercontent.com/Renovamen/flint/main/README.md",
+        file: "",
         icon: "i-heroicons-solid:fire",
         excerpt: "",
-        link: "https://github.com/Renovamen/flint"
+        link: ""
       },
       {
         id: "basic-class-02",
         title: "Basic Class",
-        file: "https://raw.githubusercontent.com/Renovamen/playground-macos/main/README.md",
+        file: "",
         icon: "i-heroicons-solid:fire",
         excerpt: "Chibi",
-        link: "https://github.com/Renovamen/playground-macos"
+        link: ""
       },
       {
         id: "hero-class-01",
         title: "Hero Class",
-        file: "https://raw.githubusercontent.com/Renovamen/oh-my-cv/main/README.md",
+        file: "",
         icon: "i-heroicons-solid:fire",
         excerpt: "Unnamed",
-        link: "https://ohmycv.app"
+        link: ""
       },
       {
         id: "hero-class-02",
         title: "Hero Class",
-        file: "https://raw.githubusercontent.com/Renovamen/oh-vue-icons/master/README.md",
+        file: "",
         icon: "i-heroicons-solid:fire",
         excerpt: "Swordsman & Acolyte",
-        link: "https://oh-vue-icons.js.org"
+        link: ""
       },
       {
         id: "hero-class-03",
         title: "Hero Class",
-        file: "https://raw.githubusercontent.com/Renovamen/vuepress-theme-gungnir/main/README.md",
+        file: "",
         icon: "i-heroicons-solid:fire",
         excerpt: "Brawler and Merchant",
-        link: "https://vuepress-theme-gungnir.vercel.app"
+        link: ""
       },
       {
         id: "hero-class-04",
         title: "Hero Class",
-        file: "https://raw.githubusercontent.com/Renovamen/metallic/master/README.md",
+        file: "",
         icon: "i-heroicons-solid:fire",
         excerpt: "Magician and Archer",
-        link: "https://github.com/Renovamen/metallic"
+        link: ""
       },
       {
         id: "hero-class-05",
         title: "Hero Class",
-        file: "https://raw.githubusercontent.com/Renovamen/Text-Classification/master/README.md",
+        file: "",
         icon: "i-heroicons-solid:fire",
         excerpt: "Swordsman Evolution",
-        link: "https://github.com/Renovamen/Text-Classification"
+        link: ""
       },
       {
         id: "monster-class-01",
         title: "Monster Class",
-        file: "https://raw.githubusercontent.com/Renovamen/Speech-Emotion-Recognition/master/README.md",
+        file: "",
         icon: "i-heroicons-solid:fire",
         excerpt: "",
-        link: "https://github.com/Renovamen/Speech-Emotion-Recognition"
+        link: ""
       },
       {
         id: "monster-class-02",
         title: "Monster Class",
-        file: "https://raw.githubusercontent.com/Renovamen/pcalg-py/master/README.md",
+        file: "",
         icon: "i-heroicons-solid:fire",
         excerpt: "Concept",
-        link: "https://github.com/Renovamen/pcalg-py"
+        link: ""
       },
       {
         id: "monster-class-03",
         title: "Monster Class",
-        file: "https://raw.githubusercontent.com/Renovamen/midgard/master/README.md",
+        file: "",
         icon: "i-heroicons-solid:fire",
         excerpt: "",
-        link: "https://resume.zxh.io/"
+        link: ""
       },
       {
         id: "monster-class-04",
         title: "Monster Class",
-        file: "https://raw.githubusercontent.com/Renovamen/Image-Captioning/master/README.md",
+        file: "",
         icon: "i-heroicons-solid:fire",
         excerpt: "",
-        link: "https://github.com/Renovamen/Image-Captioning"
+        link: ""
       },
       {
         id: "monster-class-05",
         title: "Monster Class",
-        file: "https://raw.githubusercontent.com/Renovamen/wordle-helper/main/README.md",
+        file: "",
         icon: "i-heroicons-solid:fire",
         excerpt: "",
-        link: "https://wordle.zxh.io"
+        link: ""
       },
       {
         id: "monster-class-06",
         title: "Monster Class",
-        file: "https://raw.githubusercontent.com/Renovamen/Just-a-Cube/master/README.md",
+        file: "",
         icon: "i-heroicons-solid:fire",
         excerpt: "",
-        link: "https://cube.zxh.io"
+        link: ""
       },
       {
         id: "monster-class-07",
         title: "Monster Class",
-        file: "https://raw.githubusercontent.com/Renovamen/alkaid/main/README.md",
+        file: "",
         icon: "i-heroicons-solid:fire",
         excerpt: "Dark Concept",
-        link: "https://github.com/Renovamen/alkaid"
+        link: ""
       },
       {
         id: "battle-field-01",
         title: "Battlefield",
-        file: "https://raw.githubusercontent.com/Renovamen/Fishmail/master/README.md",
+        file: "",
         icon: "i-heroicons-solid:fire",
         excerpt: "Town",
-        link: "https://fishmail.vercel.app"
+        link: ""
       },
       {
         id: "battle-field-02",
         title: "Battlefield",
-        file: "https://raw.githubusercontent.com/Renovamen/Fishmail/master/README.md",
+        file: "",
         icon: "i-heroicons-solid:fire",
         excerpt: "Mines",
-        link: "https://fishmail.vercel.app"
+        link: ""
       },
       {
         id: "battle-field-03",
         title: "Battlefield",
-        file: "https://raw.githubusercontent.com/Renovamen/Fishmail/master/README.md",
+        file: "",
         icon: "i-heroicons-solid:fire",
         excerpt: "Field",
-        link: "https://fishmail.vercel.app"
+        link: ""
       },
       {
         id: "environment",
         title: "environment",
-        file: "https://raw.githubusercontent.com/Renovamen/Fishmail/master/README.md",
+        file: "",
         icon: "i-heroicons-solid:fire",
         excerpt: "",
-        link: "https://fishmail.vercel.app"
+        link: ""
       }
     ]
   }
