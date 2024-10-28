@@ -126,3 +126,13 @@
 .bear .markdown table tr {
   @apply border-t border-gray-300 bg-transparent;
 }
+
+.gig-pannel {
+  width:100%;
+}
+
+.gig-pannel img {
+  margin-top: 3em;
+  width: 90%;
+  margin-left: 5%;
+}

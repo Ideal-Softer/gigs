@@ -148,43 +148,11 @@ const fixImageURL = (text: string, contentURL: string): string => {
   return text;
 };
 
-const Content = ({ contentID, contentURL }: ContentProps) => {
-  const [storeMd, setStoreMd] = useState<{ [key: string]: string }>({});
-  const dark = useStore((state) => state.dark);
-
-  const fetchMarkdown = useCallback(
-    (id: string, url: string) => {
-      if (!storeMd[id]) {
-        fetch(url)
-          .then((response) => response.text())
-          .then((text) => {
-            storeMd[id] = fixImageURL(text, url);
-            setStoreMd({ ...storeMd });
-          })
-          .catch((error) => console.error(error));
-      }
-    },
-    [storeMd]
-  );
-
-  useEffect(() => {
-    fetchMarkdown(contentID, contentURL);
-  }, [contentID, contentURL, fetchMarkdown]);
-
-  return (
-    <div className="markdown w-2/3 mx-auto px-2 py-6 text-c-700">
-      <ReactMarkdown
-        remarkPlugins={[remarkGfm, remarkMath]}
-        rehypePlugins={[
-          rehypeKatex,
-          [rehypeExternalLinks, { target: "_blank", rel: "noopener noreferrer" }]
-        ]}
-        components={Highlighter(dark as boolean)}
-      >
-        {storeMd[contentID]}
-      </ReactMarkdown>
-    </div>
-  );
+//Render logo section
+const Content = ({ contentID }: ContentProps) => {
+  return <div className="gig-pannel">
+    <img src={`img/pages/${contentID}.png`} alt="." />
+  </div>
 };
 
 const Bear = () => {
