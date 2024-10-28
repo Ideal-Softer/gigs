@@ -220,6 +220,7 @@ const Bear = () => {
       <div className="w-44 overflow-auto bg-gray-700">
         <Sidebar cur={state.curSidebar} setMidBar={setMidBar} />
       </div>
+
       <div className="w-60 overflow-auto" bg="gray-50 dark:gray-800" border="r c-300">
         <Middlebar
           items={state.midbarList}
